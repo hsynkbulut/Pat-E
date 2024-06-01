@@ -31,8 +31,7 @@ Pat-E, hayvanseverlerin hayvanlarla ilgili farklı ihtiyaçlarını karşılamak
 - **Bilgilendirme ve Eğitim Modülü**: Kullanıcılara hayvan bakımı, beslenme ve sağlık konularında eğitim materyalleri sunar.
 
 ## Uygulama Tanıtım Videosu
-
-
+https://github.com/hsynkbulut/Pat-E/assets/106428623/a874e4be-daec-41d2-9726-771ef29f8d83
 
 ---
 
