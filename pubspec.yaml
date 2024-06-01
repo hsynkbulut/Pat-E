@@ -1,0 +1,97 @@
+name: pat_e
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages (örn: http, intl, logger, url_launcher, flutter_native_splash)
+  flutter_native_splash: ^2.3.7
+  intl: ^0.19.0
+  url_launcher: ^6.2.5
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # State Management (örn: provider, get, get_storage)
+  provider: ^6.1.2
+
+  # Images and Image Processing
+  image_picker: ^1.0.7
+  photo_view: ^0.14.0
+  images_picker: ^1.2.11
+  flutter_image_compress: ^2.2.0
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+
+  # UI
+  fluttertoast: ^8.2.4
+  persistent_bottom_nav_bar: ^5.0.2
+  flutter_slidable: ^3.1.0
+  shimmer: ^3.0.0
+
+  # Arayüz ve Animasyon
+  flutter_svg: ^2.0.10+1
+
+  # Yazı ve Font İşlemleri
+  google_fonts: ^6.2.1
+
+  # Database and Storage
+  firebase_storage: ^11.6.10
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  firebase_core: ^2.27.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+#-------------- Native Splash Oluşturma --------------#
+# Terminale şunu yaz: flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/splash-logo.png
+  image_dark: assets/logos/splash-logo.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/splash-logo.png
+    image_dark: assets/logos/splash-logo.png
+  
+  web: false
+#------------------------ ./ ------------------------#
+
+
+flutter:
+  uses-material-design: true
+
+  #-------------- LOCAL ASSETS --------------#
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/logos/
+    - assets/images/social-media/
+
+  #-------------- LOCAL FONTS --------------#
+  fonts:
+    - family: ErasBold
+      fonts:
+        - asset: assets/fonts/ErasBoldITC.ttf
+    - family: OhChewy
+      fonts:
+        - asset: assets/fonts/Oh-Chewy.ttf
+    - family: SignikaNegative
+      fonts:
+        - asset: assets/fonts/SignikaNegative-Medium.ttf
